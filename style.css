@@ -25,27 +25,23 @@ nav ul{
     margin: 0px;
     align-items: center;
 }
+ul li{
+    transition: all 0.3s ease-out;  
+}
+ul li:hover{
+    transform: scale(1.09);
+}
 li a{
     text-decoration: none;
     color: black;
     font-weight: 630;
+    transition: all 0.3s ease-out;    
 }
 li a:hover , .home a{
     text-decoration: underline;
     text-decoration-thickness: 2px;
-}
-.headericon{
-    display: flex;
-    column-gap:20px;
-}
-.headericon a{
-text-decoration: none;
-color: black;
-transition: all 0.3s ease-out;
-}
-.headericon a:hover{
-    color: #51eaea;
-    transform: scale(1.05);
+    text-decoration-color: rgb(31, 30, 30);
+    color: green;
 }
 .sec1{ 
     background-color: whitesmoke;
@@ -171,7 +167,7 @@ padding-bottom: 60px;
     background-color: #8ccc32;
 }
 .sec4 button:hover{
-    background-color: #c8f38c;
+    background-color: #c8e79b;
 }
 #hover{
     transition: all 0.4s ease-out;
@@ -223,6 +219,13 @@ font-weight: 650;
 .textmess textarea:focus{
     border-color:#db4408 ;
     box-shadow: none;
+}
+.sec6 #but input{
+   transition: all 0.3s ease-out;
+}
+.sec6 #but input:hover{
+    background-color: #252e25;
+    color: rgb(182, 250, 182);
 }
 footer{
     display: flex;
@@ -314,6 +317,7 @@ footer a:hover{
         flex-direction: column;
         row-gap: 20px;
         padding: 20px;
+        position: static;
     }
     header .text{
      text-align: center;
@@ -346,6 +350,9 @@ footer a:hover{
  flex-wrap: wrap;
  row-gap: 20px;
     }
+    .maincontainer{
+        column-gap: 20px;
+    }
     .text img{
         width: 100%;
     }
@@ -354,5 +361,10 @@ footer a:hover{
     }
     .sec4{
         padding-bottom: 40px;
+    }
+}
+@media (max-width:567px) {
+    .maincontainer{
+        column-gap: 7px;
     }
 }
