@@ -395,6 +395,47 @@ footer a:hover {
 .sec6 input {
     padding: 10px;
 }
+.anchorfooter {
+    padding-top: 20px;
+    display: flex;
+    font-size:2rem;
+    justify-content: center;
+    column-gap: 10px;
+}
+.anchorfooter a{
+    text-decoration: none;
+}
+#icon1:hover,
+#icon2:hover,
+#icon3:hover,
+#icon4:hover {
+    transform: scale(1.09);
+    cursor: pointer;
+    background-color:darkgreen;
+}
+#icon1 i,
+#icon2 i,
+#icon3 i,
+#icon4 i{
+    color: rgb(235, 218, 218);
+    transition: all 0.3s ease-in-out;
+}
+#icon1 i:hover,
+#icon2 i:hover,
+#icon3 i:hover,
+#icon4 i:hover{
+   color: #000;
+}
+#icon1,
+#icon2,
+#icon3,
+#icon4 {
+    background-color: rgb(8, 167, 8);
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+ transition: all 0.3s ease-in-out;
+}
 
 @media (max-width:1199px) {
     .card-title div {
@@ -408,6 +449,9 @@ footer a:hover {
     nav ul li a {
         font-size: 1.09rem;
         font-weight: bold;
+    }
+    nav ul{
+        column-gap: 60px;
     }
     header {
         display: flex;
@@ -455,6 +499,7 @@ footer a:hover {
     nav ul {
         flex-wrap: wrap;
         row-gap: 20px;
+        column-gap: 50px;
     }
 
     .maincontainer {
