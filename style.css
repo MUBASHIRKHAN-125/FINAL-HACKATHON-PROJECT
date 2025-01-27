@@ -434,7 +434,10 @@ footer a:hover {
     border-radius: 50%;
     height: 50px;
     width: 50px;
- transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @media (max-width:1199px) {
@@ -445,7 +448,12 @@ footer a:hover {
         text-align: center;
     }
 }
-@media (max-width:767px) {
+@media (max-width:820px){
+    nav ul{
+        column-gap: 23px;
+    }
+}
+@media (max-width:768px) {
     nav ul li a {
         font-size: 1.09rem;
         font-weight: bold;
@@ -490,16 +498,18 @@ footer a:hover {
         flex-direction: column;
     }
 }
-
-@media (max-width:390px) {
-    nav ul li a {
-        font-size: 1.3rem;
-    }
-
+@media (max-width:460px) {
     nav ul {
         flex-wrap: wrap;
-        row-gap: 20px;
-        column-gap: 50px;
+        font-size: 1rem;
+         row-gap: 12px;
+    }
+}
+@media (max-width:390px) {
+    nav ul {
+        flex-wrap: wrap;
+        font-size: 1rem;
+         row-gap: 12px;
     }
 
     .maincontainer {
@@ -516,6 +526,12 @@ footer a:hover {
 
     .sec4 {
         padding-bottom: 40px;
+    }
+}
+@media (max-width:372px) {
+    nav ul {
+        font-size:20px;
+        column-gap: 40px
     }
 }
 
