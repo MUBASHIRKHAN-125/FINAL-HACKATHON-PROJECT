@@ -449,8 +449,8 @@ footer a:hover {
     }
 }
 @media (max-width:820px){
-    nav ul{
-        column-gap: 23px;
+    nav ul {
+        column-gap: 20px;
     }
 }
 @media (max-width:768px) {
@@ -492,13 +492,8 @@ footer a:hover {
     .cont {
         font-weight: bold;
     }
-
-    .form {
-        display: flex;
-        flex-direction: column;
-    }
 }
-@media (max-width:460px) {
+@media (max-width:480px) {
     nav ul {
         flex-wrap: wrap;
         font-size: 1rem;
@@ -536,7 +531,7 @@ footer a:hover {
 }
 
 @media (max-width:567px) {
-    .maincontainer {
-        column-gap: 7px;
+    header{
+        position: static;
     }
 }
