@@ -439,7 +439,25 @@ footer a:hover {
     justify-content: center;
     align-items: center;
 }
-
+.sec05{
+    padding-top: 100px;
+    padding-bottom: 70px;
+    background-color:#2fa32f;
+}
+.multiple-items .slick-next {
+    right: 25px;
+}
+.multiple-items .slick-prev {
+    left: 25px;
+}
+.slick-slide {
+    text-align: center; 
+  }
+  .container {
+    max-width: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
 @media (max-width:1199px) {
     .card-title div {
         text-align: center;
@@ -535,3 +553,12 @@ footer a:hover {
         position: static;
     }
 }
+
+  
+  @media (max-width: 400px) {
+    .slick-slide img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
