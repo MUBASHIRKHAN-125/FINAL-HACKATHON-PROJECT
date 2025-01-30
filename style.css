@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Bowlby+One+SC&family=Cookie&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Gabarito:wght@400..900&family=Leckerli+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Sigmar+One&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 * {
     margin: 0px;
     padding: 0px;
@@ -224,11 +225,6 @@ li a:hover,
     width: 100%;
     background-color: #8ccc32;
 }
-
-.sec4 button:hover {
-    background-color: #c8e79b;
-}
-
 #hover {
     align-self: center;
     transition: all 0.4s ease-out;
@@ -272,7 +268,11 @@ li a:hover,
 #h2 {
     text-align: center;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 3.5em;
+    font-family: "Playwrite IN", serif;
+    text-decoration: underline;
+    color: green;
+    text-decoration-color: #6db607;
 }
 
 .sec6 label {
@@ -513,20 +513,7 @@ footer a:hover {
         font-weight: bold;
     }
 }
-@media (max-width:480px) {
-    nav ul {
-        flex-wrap: wrap;
-        font-size: 1rem;
-         row-gap: 12px;
-    }
-}
 @media (max-width:390px) {
-    nav ul {
-        flex-wrap: wrap;
-        font-size: 1rem;
-         row-gap: 12px;
-    }
-
     .maincontainer {
         column-gap: 20px;
     }
@@ -554,6 +541,13 @@ footer a:hover {
     header{
         position: static;
     }
+    nav ul {
+        flex-wrap: wrap;
+         row-gap: 12px;
+    }
+    nav ul li a{
+        font-size: 1rem;
+    }
 }
 
   
@@ -561,6 +555,9 @@ footer a:hover {
     .slick-slide img {
       width: 100%;
       height: auto;
+    }
+    .text img {
+        width: 100%;
     }
   }
   
